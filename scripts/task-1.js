@@ -1,9 +1,9 @@
 'use strict';
 
 class Account {
-  constructor(object) {
-    this.login = object.login;
-    this.email = object.email;
+  constructor({ login, email }) {
+    this.login = login;
+    this.email = email;
   }
 
   getInfo() {
